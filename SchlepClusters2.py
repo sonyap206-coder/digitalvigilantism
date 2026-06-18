@@ -63,7 +63,7 @@ def main():
     # nr_topics=10 forces exactly 10 topics
     topic_model = BERTopic(
         language="english",
-        min_topic_size=50,  # pass --num-topics 10 to force 10
+        nr_topics=10,  # pass --num-topics 10 to force 10
         verbose=True
     )
 
