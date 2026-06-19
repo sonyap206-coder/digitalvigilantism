@@ -68,6 +68,9 @@ def main():
     )
 
     topics, probs = topic_model.fit_transform(comments)
+    # Reduce to approximately 15 topics by merging similar ones
+    topic_model.reduce_topics(comments, nr_topics="auto")
+    topics = topic_model.topics_  # update topic assignments after reduction
 
     # Save comment-level results
     df["topic"] = topics
