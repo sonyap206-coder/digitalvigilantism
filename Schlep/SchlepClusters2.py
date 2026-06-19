@@ -63,14 +63,24 @@ def main():
     # nr_topics=10 forces exactly 10 topics
     topic_model = BERTopic(
         language="english",
-        nr_topics=10,  # pass --num-topics 10 to force 10
         min_topic_size= 50,
         verbose=True
     )
 
     topics, probs = topic_model.fit_transform(comments)
+    # If there are lots of outliers:
+    new_topics = topic_model.reduce_outliers(
+        comments,
+        topics
+    )
+
+    topic_model.update_topics(
+        comments,
+        topics=new_topics
+    )
+
     # Reduce to approximately 15 topics by merging similar ones
-    topic_model.reduce_topics(comments, nr_topics="auto")
+    topic_model.reduce_topics(comments, nr_topics=15)
     topics = topic_model.topics_  # update topic assignments after reduction
 
     # Save comment-level results
