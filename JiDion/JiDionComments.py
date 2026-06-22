@@ -4,7 +4,7 @@ import pandas as pd
 from urllib.parse import urlparse, parse_qs
 
 
-API_KEY = "AIzaSyCOKa3S0j0D7kz1qit****"  # <- put your API key here
+API_KEY = "AIzaSyCOKa3S0j0D7kz1qit-Q1d0qpiLigC4P68"  # <- put your API key here
 
 
 def get_video_id_from_url(url: str) -> str:
