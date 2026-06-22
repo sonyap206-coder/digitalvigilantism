@@ -1,6 +1,7 @@
 import argparse
 import pandas as pd
 from bertopic import BERTopic
+from bertopic.vectorizers import ClassTfidfTransformer
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
@@ -58,11 +59,13 @@ def main():
     comments = df[args.text_col].tolist()
     print(f"Loaded {len(comments)} comments.")
 
+    ctfidf_model = ClassTfidfTransformer(reduce_frequent_words=True)
     # Build and fit BERTopic
     # nr_topics=None means fully automatic
     # nr_topics=10 forces exactly 10 topics
     topic_model = BERTopic(
         language="english",
+        ctfidf_model=ctfidf_model,
         min_topic_size= 50,
         verbose=True
     )

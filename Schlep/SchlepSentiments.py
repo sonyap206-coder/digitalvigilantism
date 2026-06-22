@@ -9,7 +9,7 @@ Pipeline:
   5) Print a summary breakdown
 
 Usage:
-  python3 SchlepSentiments.py -i SchlepComments.csv -o SchlepSentiments
+  python3 SchlepSentiments.py -i SchlepCommentsI.csv -o SchlepSentiments
 """
 
 import argparse
