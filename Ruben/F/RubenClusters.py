@@ -69,15 +69,15 @@ def main():
 
     topics, probs = topic_model.fit_transform(comments)
     # If there are lots of outliers:
-    new_topics = topic_model.reduce_outliers(
-        comments,
-        topics
-    )
-
-    topic_model.update_topics(
-        comments,
-        topics=new_topics
-    )
+    # new_topics = topic_model.reduce_outliers(
+    #     comments,
+    #     topics
+    # )
+    #
+    # topic_model.update_topics(
+    #     comments,
+    #     topics=new_topics
+    # )
 
     # Reduce to approximately 15 topics by merging similar ones
     topic_model.reduce_topics(comments, nr_topics=15)
