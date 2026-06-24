@@ -1,0 +1,16 @@
+﻿topic,topic_name,keywords,total_comments,dominant_sentiment,Positive,Neutral,Negative,pct_positive,pct_neutral,pct_negative,avg_confidence
+-1,-1_freeschelp_freeschlep_nish_que,"['freeschelp', 'freeschlep', 'nish', 'que', 'nos', 'thy', 'uhhbygtfvfcdffvghh', 'tout', 'tn', 'robloxsumuza']",113,Neutral,8,92,13,7.1,81.4,11.5,0.6752
+0,0_the_intro_is_this,"['the', 'intro', 'is', 'this', 'that', 'bro', 'music', 'was', 'what', 'video']",4153,Neutral,1065,1807,1281,25.6,43.5,30.8,0.7449
+1,1_roblox_to_and_you,"['roblox', 'to', 'and', 'you', 'the', 'for', 'is', 'this', 'banned', 'of']",3539,Negative,550,921,2068,15.5,26.0,58.4,0.7504
+2,2_he_the_like_to,"['he', 'the', 'like', 'to', 'and', 'this', 'is', 'guy', 'so', 'predator']",3008,Negative,462,771,1775,15.4,25.6,59.0,0.7382
+3,3_you_for_this_thank,"['you', 'for', 'this', 'thank', 'is', 'are', 'and', 'the', 'my', 'to']",2360,Negative,896,561,903,38.0,23.8,38.3,0.7793
+4,4_schlep_free_sclepp_schelp,"['schlep', 'free', 'sclepp', 'schelp', 'schlepfree', 'you', 'is', 'the', 'shlep', 'freeschlep']",1821,Neutral,484,1136,201,26.6,62.4,11.0,0.7211
+5,5_and_was_to_he,"['and', 'was', 'to', 'he', 'me', 'my', 'the', 'she', 'it', 'of']",1148,Negative,78,465,605,6.8,40.5,52.7,0.7142
+6,6_pfp_shirt_who_golf,"['pfp', 'shirt', 'who', 'golf', 'the', 'profile', 'his', 'tyler', 'is', 'picture']",694,Neutral,101,427,166,14.6,61.5,23.9,0.7631
+7,7_live_fresno_california_in,"['live', 'fresno', 'california', 'in', 'madera', 'now', 'my', 'town', 'like', 'from']",630,Negative,65,270,295,10.3,42.9,46.8,0.7074
+8,8_jidion_the_and_to,"['jidion', 'the', 'and', 'to', 'is', 'him', 'he', 'with', 'of', 'this']",412,Positive,164,140,108,39.8,34.0,26.2,0.7429
+9,9_baba_netflix_pdf_this,"['baba', 'netflix', 'pdf', 'this', 'feels', 'like', 'movie', 'series', 'should', 'documentary']",301,Neutral,96,115,90,31.9,38.2,29.9,0.7326
+10,10_cinema_absolute_free_hi,"['cinema', 'absolute', 'free', 'hi', 'sub', 'pen', 'mean', 'schlep', 'gang', 'ww']",246,Neutral,53,158,35,21.5,64.2,14.2,0.6805
+11,11_decoy_the_decoys_to,"['decoy', 'the', 'decoys', 'to', 'was', 'is', 'that', 'how', 'voice', 'like']",209,Negative,20,93,96,9.6,44.5,45.9,0.7442
+12,12_burrito_call_know_right,"['burrito', 'call', 'know', 'right', 'is', 'here', 'this', 'they', 'the', 'diddy']",119,Neutral,16,56,47,13.4,47.1,39.5,0.6897
+13,13_gubby_029_031_intro,"['gubby', '029', '031', 'intro', 'the', 'why', '028', 'is', '030', 'in']",109,Neutral,28,54,27,25.7,49.5,24.8,0.7285
